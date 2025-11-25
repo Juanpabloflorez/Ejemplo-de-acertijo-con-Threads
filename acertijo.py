@@ -173,7 +173,7 @@ class Mainview(tk.Frame):
                 victoria()
 
         def victoria():
-            ganar = tk.Label(self, text="La dominación mundial es inminente, será recompensado apropiadamente por el Estado", font=("Arial", 10), bg="red")
+            ganar = tk.Label(self, text="La dominación mundial es inminente, será recompensado apropiadamente por el Estado", font=("Arial", 10), bg="green")
             ganar.place(x=700, y=350)
 
             self.imagen2 = tk.PhotoImage(file="final.png")
@@ -198,4 +198,5 @@ class Exitoview(tk.Frame):
         label = tk.Label(self, text="Máquina Enigma", font=("Arial", 16))
         label.pack(pady=10)
         self.parent = parent
+
         self.controller = controller
